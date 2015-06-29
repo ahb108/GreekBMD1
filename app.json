@@ -1,7 +1,7 @@
 {
-    "name": "New Forest Setley Plain POW Camp 65 Newspaper 02",
-    "short_name": "NFPA-SetleyNews2",
-    "thumbnail": "http://micropasts.org/wp-content/uploads/2015/01/NFPOW_01_Thumbnail.jpg",
-    "description": "New Forest National Park Authority translation app for German POW newsletters",
-    "question": "Help us to translate this German newsletter"
+    "name": "Greek Parish Church Registers (Antikythera Part 1)",
+    "short_name": "GreekBMD",
+    "thumbnail": "http://micropasts-other.s3.amazonaws.com/other/mbmd1_thumb.png",
+    "description": "Help transcribe registers of Greek birth, marriage and deaths from the 19th century.",
+    "question": "Help us to transcribe this register"
 }
