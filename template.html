@@ -108,12 +108,12 @@ width:100%;
 <div class="row skeleton"> 
 
         <h1 id="start">
-            Please transcribe into Greek this register (and optionally translate it into English)
+            Παρακαλώ μπορείτε να μεταγράψετε αυτό το απόσπασμα ενοριακού μητρώου στα Ελληνικά (και προαιρετικά να το μεταφράσετε και στα Αγγλικά)
         </h1> 
     
     <!-- The question will be loaded here -->
     
-    <span class="label label-info">Note</span> You can use your mouse wheel track-pad to zoom in/out the picture, as well as drag & drop to navigate in the document.
+    <span class="label label-info">Σημείωση:</span>Μπορείτε να χρησιμοποιήσετε τον τροχό του ποντικιού σας ή την επιφάνεια αφής του φορητού σας υπολογιστή για μεγέθυνση/σμίκρυνση της εικόνας, καθώς και τη λειτουργία μεταφοράς και απόθεσης για να περιηγηθείτε στο έγγραφο
 
 </div>
 
@@ -125,26 +125,26 @@ width:100%;
         <form id="trans" role="form">        
             <!-- Transcription --> 
             <div class="form-group">
-                <label class="control-label" for="transcription">Page Transcription</label>
-                <textarea class="form-control" rows="10" name="transcription" placeholder="Please transcribed the page as accurately as possible."></textarea>
+                <label class="control-label" for="transcription">Μεταγραφή στα Ελληνικά</label>
+                <textarea class="form-control" rows="10" name="transcription" placeholder="Μεταγραφή στα Ελληνικά."></textarea>
             </div>
             <!-- Translation --> 
             <div class="form-group">
-                <label class="control-label" for="translation">Page Translation</label>
-                <textarea class="form-control" rows="10" name="translation" placeholder="Please translate the text to English."></textarea>
+                <label class="control-label" for="translation">Προαιρετική μετάφραση στα Αγγλικά</label>
+                <textarea class="form-control" rows="10" name="translation" placeholder="Προαιρετική μετάφραση στα Αγγλικά."></textarea>
             </div>
             <!-- Transcriber's comments --> 
             <div class="form-group">
-                <label class="control-label" for="other">Contributors's Comments</label>
-                <textarea class="form-control" rows="5" name="other" placeholder="Add here your comments, if you have any."></textarea>
+                <label class="control-label" for="other">Σχόλια του συντελεστή</label>
+                <textarea class="form-control" rows="5" name="other" placeholder="Σχόλια του συντελεστή."></textarea>
             </div>    
         </form>
-        <button class="btn btn-info btn-answer" value='Yes'>Submit the task</button>
+        <button class="btn btn-info btn-answer" value='Yes'>Υποβολή έργου</button>
             
         <!-- Feedback items for the user -->
-        <p>You are working now on task: <span id="task-id" class="label label-warning">#</span></p>
+        <p>Εκτελείτε το έργο: <span id="task-id" class="label label-warning">#</span></p>
         <p>
-        You have completed: <span id="done" class="label label-info"></span> tasks from
+        Έχετε συμπληρώσει: <span id="done" class="label label-info"></span> έργα από 
         <!-- Progress bar for the user -->
         <span id="total" class="label label-inverse"></span></p>
         <div class="progress progress-striped">
