@@ -1,7 +1,7 @@
 {
-    "name": "Ελληνικές ληξιαρχικές πράξεις γεννήσεως, γάμου και θανάτου / Greek Parish Church Registers (Antikythera/Αντικύθυρα 1)",
-    "short_name": "GreekBMD",
-    "thumbnail": "http://micropasts-other.s3.amazonaws.com/other/mbmd1_thumb.png",
+    "name": "Ελληνικές ληξιαρχικές πράξεις γεννήσεως, γάμου και θανάτου (Αντικύθυρα 1) / Historical Greek Parish Registers (Antikythera 1)",
+    "short_name": "GreekBMD1",
+    "thumbnail": "http://micropasts-other.s3.amazonaws.com/other/bmd1_thumb.png",
     "description": "Help transcribe registers of Greek birth, marriage and deaths from the 19th century.",
     "question": "Help us to transcribe this register"
 }
